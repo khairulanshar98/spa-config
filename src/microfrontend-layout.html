@@ -1,0 +1,18 @@
+<single-spa-router>
+  <nav>
+    <application name="@khairul/nav" test="abc"></application>
+  </nav>
+  <main>
+    <route path="home">
+      <application name="@khairul/home"></application>
+    </route>   
+    <route path="login">
+      <application name="@khairul/login"></application>
+    </route> 
+    <route default>
+      <h1>
+        <p>This example project shows independently built and deployed microfrontends that use React and single-spa. Each nav link above takes you to a different microfrontend.</p>
+      </h1>
+    </route>     
+  </main>
+</single-spa-router>

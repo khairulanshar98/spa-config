@@ -1,0 +1,11 @@
+{
+    "imports": {
+      "@khairul/root-config": "//localhost:9000/khairul-root-config.js",
+      "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+      "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+      "@khairul/api": "http://localhost:9001/khairul-api.js",
+      "@khairul/nav": "http://localhost:9002/khairul-nav.js",
+      "@khairul/home": "http://localhost:9003/khairul-home.js",
+      "@khairul/login": "http://localhost:9004/khairul-login.js"
+    }
+  }
