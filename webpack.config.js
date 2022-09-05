@@ -29,5 +29,17 @@ module.exports = (webpackConfigEnv, argv) => {
         },
       }),
     ],
+    devServer: {
+      proxy: {
+        '/v4/*': {
+          target: 'https://api.spacexdata.com',
+          secure: false,
+          changeOrigin: true
+        }
+      },
+      allowedHosts: 'all',
+      compress: true,
+      host: '0.0.0.0'
+    }
   });
 };
